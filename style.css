@@ -114,7 +114,7 @@ img {
   transform: translateY(-0.1%);
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   body {
     background-color: crimson;
   }
@@ -146,6 +146,6 @@ img {
   .küçük {
     width: 100%;
     margin: 1rem;
-    /* background-color: aliceblue; */
+
   }
-}
+} */
