@@ -67,16 +67,17 @@ img {
   border: 2px solid white;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   border-radius: 20px;
   background-color: crimson;
 }
 .küçük {
-  width: 500px;
+  width: 35%;
   height: 350px;
   /* border: 2px solid red; */
   position: relative;
   z-index: 1;
-  margin: 5rem;
+  margin: 4rem 1rem;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -111,4 +112,39 @@ img {
   bottom: 0px;
   transition: all 2s;
   transform: translateY(-0.1%);
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: crimson;
+  }
+  h1 {
+    color: white;
+  }
+  .map {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .map li {
+    margin: 1rem;
+  }
+  .lia {
+    color: white;
+    font-size: 20px;
+  }
+  .lia:hover {
+    background-color: white;
+    color: crimson;
+  }
+  h2 {
+    color: black;
+  }
+  .büyük {
+    background-color: white;
+  }
+  .küçük {
+    width: 100%;
+    margin: 1rem;
+  }
 }
