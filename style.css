@@ -38,6 +38,7 @@ a:hover {
   background-color: white;
   color: crimson;
   border-radius: 10px;
+  transition: all 0.5s;
 }
 h2 {
   color: white;
@@ -52,10 +53,10 @@ img {
 }
 .first {
   padding: 20px;
-  /* font-family: "Arima Madurai", cursive; */
-  font-family: "Dancing Script", cursive;
-  /* font-size: 10px; */
-  font-size: 35px;
+  font-family: "Arima Madurai", cursive;
+  /* font-family: "Dancing Script", cursive; */
+  font-size: 20px;
+  /* font-size: 35px; */
   font-weight: 900;
 }
 .büyük {
@@ -63,15 +64,6 @@ img {
   border: 2px solid white;
   display: flex;
   flex-wrap: wrap;
-  /* display: flex; */
-  /* width: 40%; */
-  /* position: relative; */
-  /* display: flex; */
-  /* width: 40%;
-  width: 500px;
-  height: 350px; */
-  /* display: none; */
-  /* visibility: hidden; */
 }
 .küçük {
   width: 500px;
@@ -82,43 +74,20 @@ img {
   margin: 5rem;
   border-radius: 10px;
   overflow: hidden;
-  /*
-  z-index: 6;
-  width: 500px;
-  height: 350px;
-  display: inline-block;
-  margin-left: 10%;
-  margin-top: 3%;
-  overflow: hidden;
-  border: 2px solid red;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); */
 }
 .küçük:hover {
   filter: grayscale(80%);
   box-shadow: rgba(255, 255, 255, 0.9) 0px 4px 8px,
     rgba(255, 255, 255, 0.8) 0px 14px 26px -6px,
     rgba(255, 254, 254, 0.6) 0px -6px 0px inset;
+  transition: all 0.5s;
+  /* transform: translateY(-0.1%); */
 }
 .img-div {
   width: 100%;
   height: 100%;
-  /* position: relative; */
-  /* margin-top: -100px; */
-  /* z-index: 2; */
-  /* visibility: hidden; */
-  /* display: none; */
-  /* color: white;
-  background-color: rgba(13, 51, 63, 0.5);
-  border: 2px solid red;
-  font-size: 1.5rem;
-  padding: 1rem;
-  transform: translateY(100%); */
 }
-.img-div:hover {
-  /* visibility: visible; */
-  /* display: block; */
-  /* transform: translateY(100%); */
-}
+
 .küçük p {
   display: none;
   font-family: "Arima Madurai", cursive;
@@ -128,20 +97,13 @@ img {
 .küçük:hover p {
   display: block;
   color: white;
-  background-color: rgba(13, 51, 63, 0.5);
+  background-color: rgba(22, 36, 41, 0.5);
   /* border: 2px solid red; */
   font-size: 1.5rem;
   padding: 1rem;
   position: absolute;
   z-index: 1;
   bottom: 0px;
-  /* transform: translateY(-100%); */
   transition: all 2s;
-}
-.img-p {
-  /* font-family: "Arima Madurai", cursive; */
-  /* font-size: 0px; */
-  /* position: relative; */
-  /* bottom: 0; */
-  /* height: 200px; */
+  transform: translateY(-0.1%);
 }
